@@ -1,0 +1,1 @@
+alma_branding_skin
