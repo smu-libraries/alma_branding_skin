@@ -1,0 +1,12 @@
+{
+  "name": "alma_branding_skin",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smu-libraries/alma_branding_skin.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^4.0.0"
+  }
+}
