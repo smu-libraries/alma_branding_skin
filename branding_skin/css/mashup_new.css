@@ -1368,7 +1368,7 @@ body.alma-social-login-email-form {height: 100%;font-family:Arial,verdana,sans-s
 /* Change appearance of title-level Request button. */
 .iframeHeaderContent input[type="submit"].requestOption {
   background-color: white;
-  padding: 0 12px 0 12px;
+  padding: 0 0.5em;
   font-weight: 600;
 }
 
@@ -1380,6 +1380,14 @@ body.alma-social-login-email-form {height: 100%;font-family:Arial,verdana,sans-s
 /* Change appearance of item-level Request button. */
 .itemsList table tbody > tr > td:last-child a {
   font-weight: 600;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-radius: 3px;
+}
+
+.itemsList table tbody > tr > td:last-child a:last-child {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 /* Remove decorations for links in authNote and publicNote. */
