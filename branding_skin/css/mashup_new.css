@@ -48,7 +48,11 @@
 }
 
 /* Hide the Book / Journal choice in the citation linker. */
-form[name="uResolverRequestForm"] div:first-of-type ul.internalSection.formView.clearfix li:nth-child(1),
-form[name="uResolverRequestForm"] div:first-of-type ul.internalSection.formView.clearfix li:nth-child(2) {
+form[name="uResolverRequestForm"] div.clearfix ul.internalSection.formView.clearfix li:nth-child(1),
+form[name="uResolverRequestForm"] div.clearfix ul.internalSection.formView.clearfix li:nth-child(2) {
   display: none;
+}
+
+form[name="uResolverRequestForm"] div:last-of-type ul.internalSection.formView.clearfix li:nth-child(2) {
+  display: flex;
 }
