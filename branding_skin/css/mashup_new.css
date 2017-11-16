@@ -47,6 +47,12 @@
   font-weight: 600;
 }
 
+/* Remove the line after "Notes:" (for authNoteTitle) */
+.viewIt > ul > li + div.authNoteTitle {
+  border-bottom: none;
+  margin-bottom: 0.3em;
+}
+
 /* Hide the Book / Journal choice in the citation linker. */
 form[name="uResolverRequestForm"] div.clearfix ul.internalSection.formView.clearfix li:nth-child(1),
 form[name="uResolverRequestForm"] div.clearfix ul.internalSection.formView.clearfix li:nth-child(2) {
